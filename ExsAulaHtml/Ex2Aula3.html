@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovoRegisto</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Registo de Utilizadores</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <form action="" method="post">
+                    <fieldset><legend>Dados Pessoais:</legend>
+                        <label for="Ffullname">Nome completo:</label><input required type="text" id="Ffullname" name="Nome"><br>
+                        <label for="Fbday">Data de Nascimento:</label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input required type="date" id="Fbday" name="Data_Nascimento"><br>
+                        <select>
+                            <option value="" disabled selected>Genero</option>
+                            <option value="Masc">Masculino</option>
+                            <option value="Fem">Feminino</option>
+                            <option value="Other">Outro</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dados Conta:</legend>
+                        <label for="Femail">E-mail :</label><input type="email" id="Femail" name="Email" pattern="[^ @]*@[^ @]*" required title="Invalid Email adress" placeholder="ex: email_ex@email.com"><br>
+                        <label for="Fpass">Password :</label><input type="password" id="Fpass" name="Password" required><br>
+                        <label for="Fpass2">Confirme Password :</label><input type="password" id="Fpass2" name="Password" required><br>
+                    </fieldset>
+                    <br>
+                    <input type="checkbox" id="newsletter" name="NewsLetter">
+                    <label for="newsletter">Aceita receber a nossa newsletter no seu email?</label>
+                    <br><br>
+                    <Input type="submit" value="Completar Registo"></Input> <input type="reset" value="Limpar Dados">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

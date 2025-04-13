@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt_PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquérito sobre Hábitos Alimentares</title>
+</head>
+<body>
+    <header>
+        <h1>Inquérito sobre Hábitos Alimentares</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel numquam aliquid quidem voluptatum dignissimos quia quis dolore consequatur, laboriosam, in animi distinctio eveniet quibusdam nihil eaque laudantium aliquam, magnam veniam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, laudantium. Atque nemo fuga temporibus distinctio dolor aut beatae eaque deleniti.</p>
+                <a href="#CarGer">Caracterização Geral</a>, 
+                <a href="#HabAl">Hábitos Alimentares</a> e 
+                <a href="#Cont">Contactos</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed quia, rerum dolore magnam architecto blanditiis? Magnam repellendus ducimus reprehenderit ut doloremque, ab est dolor eius optio commodi repellat alias.</p>
+            </article>
+
+            <form action="http://www.bytes4future.pt/" method="get">
+
+            <article id="CarGer">
+                <h3>Caracterização Geral</h3>
+                <fieldset>
+                    <legend>Idade</legend>
+                    <input type="radio" name="IHAidade" id="18_25">
+                    <label for="18_25">Entre 18 e 25</label><br>
+                    <input type="radio" name="IHAidade" id="26_45">
+                    <label for="26_45">Entre 26 e 45</label><br>
+                    <input type="radio" name="IHAidade" id="46_65">
+                    <label for="46_65">Entre 46 e 65</label><br>
+                    <input type="radio" name="IHAidade" id="+65">
+                    <label for="+65">Maior de 65</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Género</legend>
+                    <p>Com que Género se identifica</p>
+                    <input type="radio" name="IHAgenero" id="male"><label for="male"> Masculino</label><br>
+                    <input type="radio" name="IHAgenero" id="female"><label for="female">Feminino</label><br>
+                    <input type="radio" name="IHAgenero" id="other"><label for="other">Outro</label>
+                </fieldset>
+            </article>
+
+            <article id="HabAl">
+                <h3>Hábitos Alimentares</h3>
+                <fieldset>
+                    <legend>Número de Refeições Diárias</legend>
+                    <label for="refdia">Quantas refeições faz por dia?</label>
+                    <select id="refdia" name="IHArefdia">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tipos de Alimentos Consumidos</legend>
+                    <p>Que tipo de alimentos consome com mais regularidade?</p>
+                    <input type="checkbox" name="IHAalim" id="lac"><label for="lac">Lacticínios</label><br>
+                    <input type="checkbox" name="IHAalim" id="cer"><label for="cer">Cereais</label><br>
+                    <input type="checkbox" name="IHAalim" id="pei"><label for="pei">Peixe</label><br>
+                    <input type="checkbox" name="IHAalim" id="car"><label for="car">Carne</label><br>
+                    <input type="checkbox" name="IHAalim" id="veg"><label for="veg">Vegetais</label><br>
+                    <input type="checkbox" name="IHAalim" id="oth"><label for="oth">Outros</label>
+                    <label for="othtxt" >Indique quais:</label><input type="text" id="othtxt" name="IHAalim"></input>
+                </fieldset>
+            </article>
+            <article id="Cont">
+                <h3>Contactos</h3>
+
+                <fieldset>
+                    <legend>E-mail e Telefone</legend>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, reprehenderit?</p>
+                    <label for="e-mail">Indique o seu E-mail</label>
+                    <input type="email" id="e-mail" name="IHAemail"><br>
+                    <label for="tel.">Indique o seu nº Telefone</label>
+                    <input type="tel" id="tel." name="IHAtel">
+                </fieldset>
+            </article>
+            <input type="submit" value="Sumbeter Respostas">
+            </form>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
