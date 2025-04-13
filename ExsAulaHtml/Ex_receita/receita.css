@@ -1,0 +1,96 @@
+body{
+    background-color: bisque;
+}
+header{
+    float:none;
+    
+height:auto ; width:auto;
+position:relative;
+background-color: bisque;
+text-align: center;
+border-bottom: 10px solid rebeccapurple;
+}
+h1{
+    color: rebeccapurple;
+    font-family: Sofia;
+}
+nav a:link{
+    color:rebeccapurple;
+    background-color: transparent;
+}
+nav a:hover{
+    color:bisque ;
+    background-color: rebeccapurple;
+}
+nav a:active{
+    color: rebeccapurple;
+    background-color: transparent;
+}
+nav  a:link, a:visited, a:hover, a:active{
+    font-family: Sofia;
+    text-decoration: none;
+}
+main{
+    margin-top: 10px;
+    position: relative;
+}
+figure{
+    float: right;
+
+}
+figure img{
+    height: 285px;
+
+}
+#Ingredients figcaption{
+font-size: x-small;
+color:rebeccapurple
+}
+#Ingredients fieldset{
+    float:right
+}
+#Ingredients{
+    font-family: corben;
+    float:none;
+    line-height: 25px;
+}
+#Ingredients h3{
+    font-family: sofia;
+    font-size: 25px;
+    color:rebeccapurple
+}
+#Ingredients p{
+    text-align: center;
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+#Ingredients ul{
+    color: rebeccapurple;
+}
+
+#Preparation fieldset{
+    float:right
+  }
+  #Preparation{
+    font-family: corben;
+    float:none;
+    line-height: 25px;
+  }
+  #Preparation h3{
+    font-family: sofia;
+    font-size: 25px;
+    color:rebeccapurple
+  }
+  #Preparation p{
+    text-align: center;
+    color: rebeccapurple;
+    text-decoration: underline;
+  }
+  #Preparation ol{
+    color: rebeccapurple;
+  }
+  footer p{
+    font-family: Sofia;
+    color: rebeccapurple;
+    /*DUVIDA font-size:18; nao muda o tamanho */
+  }
