@@ -26,7 +26,7 @@ nav a:active{
     color: rebeccapurple;
     background-color: transparent;
 }
-nav  a:link, a:visited, a:hover, a:active{
+nav a:link, a:visited, a:hover, a:active{
     font-family: Sofia;
     text-decoration: none;
 }
