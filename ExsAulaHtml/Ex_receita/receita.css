@@ -89,8 +89,16 @@ color:rebeccapurple
   #Preparation ol{
     color: rebeccapurple;
   }
+
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+  }
   footer p{
     font-family: Sofia;
     color: rebeccapurple;
+    text-align: center;
     /*DUVIDA font-size:18; nao muda o tamanho */
   }
