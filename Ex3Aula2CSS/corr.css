@@ -1,0 +1,33 @@
+*{
+    margin:o;
+    padding:0;
+    box-sizing: border-box;
+}
+.card{
+    border:1px solid;
+    width: 25%;
+    margin: 100px auto;
+    border-radius: 5px;
+    padding: 16px;
+}
+.wrapper{
+width: 100%;
+}
+image{
+    width: 100%;
+    border-radius: 5px;
+}
+.product-title{
+    margin-top: 16px;
+
+}
+.product-price{
+
+}
+.slashed{
+
+}
+.button{
+    width: 100%;
+    
+}
