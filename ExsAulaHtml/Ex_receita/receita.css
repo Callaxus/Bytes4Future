@@ -63,14 +63,13 @@ color:rebeccapurple
     text-align: center;
     color: rebeccapurple;
     text-decoration: underline;
+    line-height: 25px;
 }
 #Ingredients ul{
     color: rebeccapurple;
 }
 
-#Preparation fieldset{
-    float:right
-  }
+
   #Preparation{
     font-family: corben;
     float:none;
@@ -90,8 +89,7 @@ color:rebeccapurple
     color: rebeccapurple;
   }
 
-  footer{
-    position: fixed;
+  footer{/*position ???*/
     left: 0;
     bottom: 0;
     text-align: center;
@@ -102,3 +100,8 @@ color:rebeccapurple
     text-align: center;
     /*DUVIDA font-size:18; nao muda o tamanho */
   }
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
