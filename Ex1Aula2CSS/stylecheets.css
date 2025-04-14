@@ -1,0 +1,23 @@
+body{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a {
+    color: aquamarine;
+    background-color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: aquamarine;
+    text-decoration: none;
+}
+
+nav li:first-child a{
+    color: brown;
+    background-color: aqua;
+}
+nav li:first-child a:hover{
+    color: aqua;
+    background-color: brown;
+}
