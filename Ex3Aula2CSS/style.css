@@ -28,6 +28,12 @@ button{
     font-size: 30px;
     border-radius: 5px;
 }
+button:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+
 .wrapper2{
     flex-direction: row;
 }
