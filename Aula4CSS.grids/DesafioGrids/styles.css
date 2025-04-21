@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+body{
+    background-color: hsl(218, 22%, 67%);
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 50em ;
+    grid-template-areas: "title""subs""why";
+    margin:5%;
+    border-radius: 5em;
+}
+.title{
+    background-color:hsl(204, 43%, 93%) ;
+    grid-area: title;
+    color: grey;
+    text-align: left;
+
+    padding:2em;
+}
+.title h2{
+    color: hsl(179, 62%, 43%);
+}
+.title h3{
+    color:lightgreen;
+}
+
+.subscribe{
+    grid-area: subs;
+    color:hsl(204, 43%, 93%) ;
+    background-color:  hsl(179, 62%, 43%);
+    text-align: center;
+    padding:2em;
+}
+.subscribe button{
+    width: 80%;
+    padding: 0.5em;
+    font-size: 2em;
+    border: none;
+    border-radius: 0.3em;
+    color:hsl(204, 43%, 93%);
+    background-color: lightgreen;
+    box-shadow:0.1em 0.1em 0.1em grey ;
+}
+.why{
+    grid-area: why;
+    color:hsl(204, 43%, 93%) ;
+    background-color: #009999;
+    text-align: left;
+
+    padding:2em;
+}
+.why ol{
+    list-style: none;
+}
+
+@media(min-width: 500px) {
+    .wrapper{
+    display: grid;
+    grid-template-columns: 100% 50% 50%;
+    grid-template-areas: "title title""subs why";
+}
+}
