@@ -1,0 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #008080;
+    font-family: "Pixelify Sans", sans-serif;
+}
