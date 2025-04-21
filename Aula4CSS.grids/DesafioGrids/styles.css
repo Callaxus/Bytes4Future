@@ -9,11 +9,14 @@ body{
 }
 
 .wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     display: grid;
-    grid-template-columns: 50em ;
+    grid-template-columns: 25em ;
     grid-template-areas: "title""subs""why";
-    margin:5%;
-    border-radius: 5em;
+    margin:5em 5em ;
+
 }
 .title{
     background-color:hsl(204, 43%, 93%) ;
@@ -62,7 +65,8 @@ body{
 @media(min-width: 500px) {
     .wrapper{
     display: grid;
-    grid-template-columns: 100% 50% 50%;
+    grid-template-columns: 50% 50% 50%;
     grid-template-areas: "title title""subs why";
+    margin: 10% 20%;
 }
 }
