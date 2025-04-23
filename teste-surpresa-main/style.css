@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: rgb(68, 0, 255);
+    font-family: Montserrat;
+}
+.main{
+    background-image: image();
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    height: 2.5em;
+}
+.caixa{
+    background-color: #f1f1f1;
+
+}
+.loginbtn{
+    background-color: #21dda2;
+}
+fieldset img{
+    display: flex;
+    height: 4em;
+    align-self: center;
+}
+.caixa{
+    display: flex;
+    flex-direction:;
+    margin: 25%;
+}
+
+/*
+- text color: #282828;
+- form color: #f1f1f1;
+- button color: #21dda2;
+*/
