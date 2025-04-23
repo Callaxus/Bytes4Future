@@ -3,7 +3,32 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background-color: #008080;
+}
+
+
 .navbar{
     background-color: #008080;
     font-family: "Pixelify Sans", sans-serif;
+
+}
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icolink{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.icopic{
+    height: 3em;
+}
+
+.icosub:hover{
+    text-decoration: dotted;
 }
