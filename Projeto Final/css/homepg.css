@@ -28,6 +28,7 @@ body{
 
 }
 .nav1{
+    margin-top:1em ;
     display: flex;
     justify-content: space-evenly;
 }
@@ -48,3 +49,21 @@ a.icolink:hover{
 
 }
 
+.barrainfo{
+    height: 2em;
+    background-color: #c3c3c3;
+    border-top: 2px inset #818181;
+    border-bottom: 2px inset #818181;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.clock{
+    border: 1px inset #000;
+    height: 1em;/* temporario */
+    width: 3%;/* remover */
+    margin-right:1em;
+    background-color: #fdffff ;
+}
