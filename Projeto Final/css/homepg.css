@@ -1,3 +1,17 @@
+/*
+cores:
+cinza escuro #818181
+cinza claro #c3c3c3c3
+branco #fdffff
+Azul #010081
+teal #008080
+pink #ff0081
+black #000
+
+*/
+
+
+
 *{
     margin:0;
     padding:0;
@@ -29,6 +43,8 @@ body{
     height: 3em;
 }
 
-.icosub:hover{
-    text-decoration: dotted;
+a.icolink:hover{
+    border: 1px dotted #fdffff;
+
 }
+
