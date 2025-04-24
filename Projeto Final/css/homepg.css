@@ -24,8 +24,7 @@ body{
 
 .navbar{
     background-color: #008080;
-    font-family: "Pixelify Sans", sans-serif;
-
+    
 }
 .nav1{
     margin-top:1em ;
@@ -38,6 +37,8 @@ body{
     text-decoration: none;
     text-align: center;
     color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+
 }
 
 .icopic{
@@ -46,7 +47,6 @@ body{
 
 a.icolink:hover{
     border: 1px dotted #fdffff;
-
 }
 
 .barrainfo{
@@ -68,3 +68,15 @@ a.icolink:hover{
     background-color: #fdffff ;
 }
 
+.void{
+    margin: 15%;
+}
+.sneakyp{
+    color: #008080;
+}
+
+.footer{
+    display: flex;
+    align-content: flex-end;
+    margin-top: 80%;
+}
