@@ -107,27 +107,55 @@ a.icolink:hover{
 table{
     margin: 5em auto;
     text-align: center;
-    border: 1px inset;
     width: 100%;
 }
 
-th{
-    text-align: center;
-}
+
 ul{
     list-style: none;
 }
 
 .desc{
-    text-align: justify;
+    padding-top: 1em;
     padding-left: 3em;
+    text-align: start;
 }
 table {
     table-layout: fixed;
     width: 100%;
-  }
-  td, th {
+}
+td, th {
     word-wrap: break-word;
-  }
+border-bottom: 2px double #000;
+}
 
-  
+.linktab{
+    text-decoration: none;
+    font-weight: 800;
+    color: #000;
+}
+
+.linktab:hover{
+    background-color: #000;
+    color: #fdffff;
+}
+
+.closewin{
+    text-decoration: none;
+    align-self: flex-end;
+    color: #000;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 600;
+    background-color: #818181;
+    border: 3px outset #c3c3c3;
+}
+
+.closewin:hover{
+    background-color: #c3c3c3;
+    border: 3px outset #c3c3c3;
+}
+
+.closewin:active{
+    background-color: rgb(143, 17, 17);
+    border: 3px inset #4d0909;
+}

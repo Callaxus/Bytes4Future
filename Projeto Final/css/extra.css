@@ -98,3 +98,23 @@ a.icolink:hover{
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
+
+.closewin{
+    text-decoration: none;
+    align-self: flex-end;
+    color: #000;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 600;
+    background-color: #818181;
+    border: 3px outset #c3c3c3;
+}
+
+.closewin:hover{
+    background-color: #c3c3c3;
+    border: 3px outset #c3c3c3;
+}
+
+.closewin:active{
+    background-color: rgb(143, 17, 17);
+    border: 3px inset #4d0909;
+}
