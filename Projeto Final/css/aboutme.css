@@ -72,14 +72,16 @@ a.icolink:hover{
     color: #fdffff;
     height: 1.5em;
     font-family: "Pixelify Sans", sans-serif;
-
+    text-align: center;
     border-bottom: 2.5px inset #c3c3c3;
     border-left: 2.5px inset #c3c3c3;
     border-right: 2.5px inset #c3c3c3;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
 
 .winframe{
     background-color: #818181;
@@ -134,12 +136,14 @@ a.icolink:hover{
 
 .closewin{
     text-decoration: none;
-    align-self: flex-end;
     color: #000;
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 600;
     background-color: #818181;
     border: 3px outset #c3c3c3;
+    justify-self: flex-end;
+    position: absolute;
+    left: 98%;
 }
 
 .closewin:hover{

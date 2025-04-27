@@ -72,14 +72,16 @@ a.icolink:hover{
     color: #fdffff;
     height: 1.5em;
     font-family: "Pixelify Sans", sans-serif;
-
+    text-align: center;
     border-bottom: 2.5px inset #c3c3c3;
     border-left: 2.5px inset #c3c3c3;
     border-right: 2.5px inset #c3c3c3;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
 
 .winframe{
     background-color: #818181;
@@ -90,23 +92,28 @@ a.icolink:hover{
     border-right: 2.5px inset #c3c3c3;
 }
 
-.abtme{
+section{
     font-family: "DM Sans", sans-serif;
     background-color: #fdffff;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+    margin: 2em auto;
+    line-height: 3em;
+    border: 3px outset #c3c3c3;
 }
 
 .closewin{
     text-decoration: none;
-    align-self: flex-end;
     color: #000;
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 600;
     background-color: #818181;
     border: 3px outset #c3c3c3;
+    justify-self: flex-end;
+    position: absolute;
+    left: 98%;
 }
 
 .closewin:hover{
@@ -117,4 +124,25 @@ a.icolink:hover{
 .closewin:active{
     background-color: rgb(143, 17, 17);
     border: 3px inset #4d0909;
+}
+table{
+    margin: 2em auto;
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+}
+td, th {
+    word-wrap: break-word;
+border-bottom: 2px double #000;
+}
+ul{
+    list-style: none;
+}
+th.tbltit{
+    word-wrap: break-word;
+    font-weight: 900;
+    font-size: x-large;
+}
+h3{
+    text-align: center;
 }
