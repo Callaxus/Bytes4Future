@@ -93,8 +93,41 @@ a.icolink:hover{
 .abtme{
     font-family: "DM Sans", sans-serif;
     background-color: #fdffff;
-    padding-left: 1%;
+    padding-left: 5em;
     padding-right: 1%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "txtg1""imgg1";
+}
+
+#artam1{
+    padding-left: 5em;
+    grid-area: txtg1;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#amp1{
+    text-align: justify;
+    padding: 2em;
+}
+
+#picmim{
+    grid-area: imgg1;
+
+}
+
+#lista1{
+    text-align: justify;
+}
+#lista1_1{
+    list-style: none;
+}
+#lista1_2{
+    list-style: none;
 }

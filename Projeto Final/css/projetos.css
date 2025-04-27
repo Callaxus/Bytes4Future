@@ -19,11 +19,10 @@ body{
     background-color: #008080;
 }
 
-
 .navbar{
     background-color: #008080;
-    
 }
+
 .nav1{
     margin-top:1em ;
     display: flex;
@@ -84,17 +83,33 @@ a.icolink:hover{
 .winframe{
     background-color: #818181;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 2.5%;
     border-bottom: 2.5px inset #c3c3c3;
     border-left: 2.5px inset #c3c3c3;
     border-right: 2.5px inset #c3c3c3;
 }
 
-.abtme{
+.prjts{
     font-family: "DM Sans", sans-serif;
     background-color: #fdffff;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+    text-align: center;
 }
+
+.video-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+video {
+    width: 100%;
+    height: auto;
+    border: 3px solid transparent;
+    border-radius: 10px;
+  }
