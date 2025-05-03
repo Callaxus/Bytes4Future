@@ -28,3 +28,22 @@ while(n<=10){
 */
 
 
+let input = prompt("Indica um numero entre 1 e 10");
+
+console.log(parseInt(input));
+
+let n = (Math.floor(Math.random() * 10) + 1);
+
+console.log(n);
+
+if (input == n) {
+    alert(" 😄 YOU WIN!!! XD");
+} else {
+    while (input != n) {
+        alert(" 😦 oh no, try again...");
+        let input = prompt("Indica um numero entre 1 e 10");
+        console.log(parseInt(input));
+        let n = (Math.floor(Math.random() * 10) + 1);
+        console.log(n);
+    }
+}
