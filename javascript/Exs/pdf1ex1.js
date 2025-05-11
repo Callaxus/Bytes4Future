@@ -1,0 +1,10 @@
+let string1="string";
+let num = 1;
+let nada;
+let verdade=true;
+let m="maria";
+let o="olivia";
+let mo;
+mo=m+" "+o;
+console.log(typeof(mo));
+const g = 9.8;
