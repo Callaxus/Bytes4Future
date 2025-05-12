@@ -22,13 +22,6 @@ if(n1>n2 && n1>n3){
 
 
 
-/* usei chat gpt para fazer permutações CUIDADO as permutaçoes do gpt nao fazem muito sentido mas sao um bom sitio para começar se nao queres esquecer de algum caso
-
-(n1 === n2 && n2 === n3) todos  os valores sao iguais --- done
-(n1 === n2 && n1 > n3)  os valores 1 e 2 sao os maiores 
-(n1 === n3 && n1 > n2)  os valores 1 e 3 sao os maiores 
-(n2 === n3 && n2 > n1)  os valores 2 e 3 sao os maiores 
-
-}
-
-*/ 
+/*
+usei chat gpt para fazer permutações CUIDADO as permutaçoes do gpt nao fazem muito sentido mas sao um bom sitio para começar se nao queres esquecer de algum caso
+*/

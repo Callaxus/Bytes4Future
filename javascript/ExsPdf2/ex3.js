@@ -2,10 +2,9 @@ let valor1=parseInt(prompt("Valor 1"));
 let valor2=parseInt(prompt("Valor 2"));
 
     function contaParesEntreValores(v1,v2){
-        let vmenor;
-        let vmaior;
-        let total=0;
-
+    let vmenor;
+    let vmaior;
+    let total=0;
 
         if(v1===v2){
             alert("Porfavor insira dois valores diferentes");
