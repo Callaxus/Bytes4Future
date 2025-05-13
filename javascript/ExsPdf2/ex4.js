@@ -12,11 +12,10 @@ function meses(trimestre){
     case 4:
         return "Oct, Nov, Dez"
     default:
-        alert("Insira um valor referente a um trimestre\n 1 a 4");
-    break;
+        return alert("Insira um valor referente a um trimestre\n 1 a 4");
     }
 }
 
 let tri=parseInt(prompt("Insira o nº do trimestre"));
 
-alert(`Os meses do ${tri}º trimestre são: ${meses(tri)}`);
+alert(meses(tri));
