@@ -13,4 +13,21 @@ function formulaResolvente(a, b, c) {
     return sol;
 }
 
-console.log(formulaResolvente(2,-4,-6));
+ //console.log(formulaResolvente(2,-4,-6));
+
+
+
+let arrayn=[];
+let narray=[];
+let oarray=[];
+ for(let i=0; i <10; i++){
+ arrayn.push(Math.floor(Math.random()*30));
+}
+console.log(arrayn);
+
+narray=arrayn.sort((a,b)=>a-b);
+console.log(narray);
+for(let i2=0;i2<narray.length;i2++){
+    oarray.unshift(narray[i2]);
+}
+console.log(oarray);
