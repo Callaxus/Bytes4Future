@@ -1,3 +1,4 @@
+
 let nota = prompt("introduza a nota:");
 
 if(nota>0 && nota<49){
