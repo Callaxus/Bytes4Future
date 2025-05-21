@@ -1,16 +1,16 @@
 let meses= new Map([
-    [1,"Jan"],
-    [2,"Feb"],
-    [3,"Mar"],
-    [4,"Apr"],
-    [5,"May"],
-    [6,"Jun"],
-    [7,"Jul"],
-    [8,"Aug"],
-    [9,"Sep"],
-    [10,"Oct"],
-    [11,"Nov"],
-    [12,"Dec"]
+    ["jan","January"],
+    ["feb","February"],
+    ["mar","March"],
+    ["apr","April"],
+    ["may","May"],
+    ["jun","June"],
+    ["jul","July"],
+    ["aug","August"],
+    ["sep","September"],
+    ["oct","October"],
+    ["nov","November"],
+    ["dec","December"]
 ]);
 
 console.log(meses.get(5));
