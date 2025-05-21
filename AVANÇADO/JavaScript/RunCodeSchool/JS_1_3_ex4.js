@@ -1,18 +1,7 @@
 function calculaDiaDoAno(dia, mes){
-    let jan=1;
-    let fev=32;
-    let mar=60;
-    let abr=91;
-    let mai=121;
-    let jun=152;
-    let jul=182;
-    let ago=213;
-    let set=244;
-    let out=274;
-    let nov=305;
-    let dez=335;
-
-    if(dia<=0||dia>31){
+    let arrDiaUmMes=[0,31,59,90,120,151,181,212,243,273,304,334];
+    let sumArr=0;
+    if((dia<=0||dia>31)&&(mes===1||mes===3||mes===5||mes===7||mes===8||mes===10||mes===12)){
         return "Por favor introduza um dia entre 1 e 31.";
     }else if(mes<=0||mes>12){
         return "Por favor introduza um mês entre 1 e 12.";
@@ -21,44 +10,62 @@ function calculaDiaDoAno(dia, mes){
     }else if(mes===2&&dia>28){
         return "Por favor introduza um dia entre 1 e 28.";
     }else if(mes===1){
-        jan+=dia;
-                return jan;
+        sumArr=arrDiaUmMes[0]+dia;
+            return sumArr;
     }else if(mes===2){
-        fev+=dia;
-                return fev;
+        sumArr=arrDiaUmMes[1]+dia;
+            return sumArr;
     }else if(mes===3){
-        mar+=dia;
-        return mar;
+        sumArr=arrDiaUmMes[2]+dia;
+            return sumArr;
     }else if(mes===4){
-        abr+=dia;
-        return abr;
+        sumArr=arrDiaUmMes[3]+dia;
+            return sumArr;
     }else if(mes===5){
-        mai+=dia;
-        return mai;
+        sumArr=arrDiaUmMes[4]+dia;
+            return sumArr;
     }else if(mes===6){
-        jun+=dia;
-        return jun;
+        sumArr=arrDiaUmMes[5]+dia;
+            return sumArr;
     }else if(mes===7){
-        jul+=dia;
-        return jul;
+        sumArr=arrDiaUmMes[6]+dia;
+            return sumArr;
     }else if(mes===8){
-        ago+=dia;
-        return ago;
+        sumArr=arrDiaUmMes[7]+dia;
+            return sumArr;
     }else if(mes===9){
-        set+=dia;
-        return set;
+        sumArr=arrDiaUmMes[8]+dia;
+            return sumArr;
     }else if(mes===10){
-        out+=dia;
-        return out;
+        sumArr=arrDiaUmMes[9]+dia;
+            return sumArr;
     }else if(mes===11){
-        nov+=dia;
-            return nov;
+        sumArr=arrDiaUmMes[10]+dia;
+            return sumArr;
     }else if(mes===12){
-        dez+=dia;
-            return dez;
+        sumArr=arrDiaUmMes[11]+dia;
+            return sumArr;
     }
 }
+    console.log(calculaDiaDoAno(31,12));
 
+/*
+versão refatorizada mais eficiente by copilot
+function calculaDiaDoAno(dia, mes) {
+    const diasNoMes = [31,28,31,30,31,30,31,31,30,31,30,31];
+    const acumulado = [0,31,59,90,120,151,181,212,243,273,304,334];
+
+    if (mes < 1 || mes > 12) {
+        return "Por favor introduza um mês entre 1 e 12.";
+    }
+    if (dia < 1 || dia > diasNoMes[mes-1]) {
+        return `Por favor introduza um dia entre 1 e ${diasNoMes[mes-1]}.`;
+    }
+    return acumulado[mes-1] + dia;
+}
+
+*/
+/*
 console.log(calculaDiaDoAno(5,1));
 console.log(calculaDiaDoAno(5,2));
 console.log(calculaDiaDoAno(5,3));
@@ -70,4 +77,8 @@ console.log(calculaDiaDoAno(5,8));
 console.log(calculaDiaDoAno(5,9));
 console.log(calculaDiaDoAno(5,10));
 console.log(calculaDiaDoAno(5,11));
-console.log(calculaDiaDoAno(5,12));
+console.log(calculaDiaDoAno(31,12));
+console.log(calculaDiaDoAno(2,31));
+console.log(calculaDiaDoAno(301,31));
+console.log(calculaDiaDoAno(31,2));
+*/
