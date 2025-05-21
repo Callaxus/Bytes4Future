@@ -1,3 +1,4 @@
+//TROCAR ARRAYS POR VARS NORMAIS E FAZER SOMA DO DIA
 function calculaDiaDoAno(dia, mes){
     let jan=[];
     let fev=[];
