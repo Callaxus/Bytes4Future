@@ -1,6 +1,6 @@
 function tempoEmPalavras(horas, minutos){
 const horasmap= new Map([
-    [0,"meia-noite"],[12,"meio-dia"],
+    [0,"meia noite"],[12,"meio dia"],
     [1,"uma"],[13,"uma"],
     [2,"duas"],[14,"duas"],
     [3,"três"], [15,"três"],
