@@ -1,5 +1,4 @@
 function tempoEmPalavras(horas, minutos){
-
 const horasmap= new Map([
     [0,"meia-noite"],[12,"meio-dia"],
     [1,"uma"],[13,"uma"],
@@ -13,7 +12,6 @@ const horasmap= new Map([
     [9,"nove"],[21,"nove"],
     [10,"dez"], [22,"dez"],
     [11,"onze"], [23,"onze"]]);
-
 const minutosmap= new Map([
     [0,"em ponto"],[1,"um"],[2,"dois"],
     [3,"três"],[4,"quatro"],[5,"cinco"],
@@ -27,7 +25,6 @@ const minutosmap= new Map([
     [27,"vinte e sete"],[28,"vinte e oito"],[29,"vinte e nove"],
     [30,"meia"],[45,"um quarto para"]
 ]);
-    
     if(horas<0||horas>23||minutos<0||minutos>59){return "Valores fora do formato!"
     }else if(minutos===0){
         return horasmap.get(horas)+" "+minutosmap.get(0);
