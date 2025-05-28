@@ -47,6 +47,7 @@ const minutosmap= new Map([
     }
 }
 
+
 //Depois do minuto 30, deve ser dito, por exemplo, "dez para as cinco" (T-T) minutosmap.get(60-minutos)
 // isto a partir dos 30 é inutil, mas deu trabalho fazer portanto nao vou apagar
 
@@ -57,3 +58,24 @@ const minutosmap= new Map([
     [46,"quarenta e seis"],[47,"quarenta e sete"],[48,"quarenta e oito"],[49,"quarenta e nove"],
     [50,"cinquenta"],[51,"cinquenta e um"],[52,"cinquenta e dois"],[53,"cinquenta e três"],[54,"cinquenta e quatro"],[55,"cinquenta e cinco"],
     [56,"cinquenta e seis"],[57,"cinquenta e sete"],[58,"cinquenta e oito"],[59,"cinquenta e nove"] */
+
+console.log(tempoEmPalavras(0, 0));
+console.log(tempoEmPalavras(12, 0));
+console.log(tempoEmPalavras(1, 0));
+console.log(tempoEmPalavras(10, 15));
+console.log(tempoEmPalavras(10, 30));
+console.log(tempoEmPalavras(10, 45));
+console.log(tempoEmPalavras(23, 45));
+console.log(tempoEmPalavras(11, 45));
+console.log(tempoEmPalavras(22, 45));
+console.log(tempoEmPalavras(10, 40));
+console.log(tempoEmPalavras(23, 59));
+console.log(tempoEmPalavras(11, 59));
+console.log(tempoEmPalavras(5, 22));
+console.log(tempoEmPalavras(15, 27));
+console.log(tempoEmPalavras(20, 29));
+console.log(tempoEmPalavras(20, 31));
+console.log(tempoEmPalavras(23, 30));
+console.log(tempoEmPalavras(12, 16));
+console.log(tempoEmPalavras(-1, 10));
+console.log(tempoEmPalavras(10, 60));
