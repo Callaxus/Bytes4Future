@@ -18,7 +18,7 @@ const minutosmap= new Map([
     [6,"seis"],[7,"sete"],[8,"oito"],
     [9,"nove"],[10,"dez"],[11,"onze"],
     [12,"doze"],[13,"treze"],[14,"catorze"],
-    [15,"um quarto"],[16,"dezaseis"],[17,"dezasete"],
+    [15,"um quarto"],[16,"dezasseis"],[17,"dezassete"],
     [18,"dezoito"],[19,"dezanove"],[20,"vinte"],
     [21,"vinte e um"],[22,"vinte e dois"],[23,"vinte e três"],
     [24,"vinte e quatro"],[25,"vinte e cinco"],[26,"vinte e seis"],
