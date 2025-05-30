@@ -1,24 +1,5 @@
-function calculaFaixaEtaria(idade){
-    let faixa;
-    if(idade>0||idade<=11){
-        faixa="Criança";
-        return faixa;
-    }else if(idade>=12||idade<=17){
-        faixa="Adolescente";
-        return faixa;
-    }else if(idade>=18||idade<=64){
-        faixa="Adulto";
-        return faixa;                
-    }else if(idade>=65){
-        faixa="Sénior";
-        return faixa;            
-    }else{
-        return;
-    }            
-}
+const map = {a:"4",A:"4",e:"3",E:"3",i:"1",I:"1",o:"0",O:"0",s:"5",S:"5"}
 
-console.log(calculaFaixaEtaria(1));
-console.log(calculaFaixaEtaria(15));
-console.log(calculaFaixaEtaria(25));
-console.log(calculaFaixaEtaria(65));
-console.log(calculaFaixaEtaria(-1));
+let text = "education";
+let result = text.replace(/[aAeEiIoOsS]/g, l => map[l]);
+console.log(result); // "2d5c1t32n"
