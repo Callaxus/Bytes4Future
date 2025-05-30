@@ -21,7 +21,7 @@
 // depois do roda pé apresenta o nº total de operações no historico, e o ultimo resultado
 
 
-class Calculon{
+class Calculadora{
     constructor(){
         this.historico = [];
         this.ultimoResultado = 0;
@@ -95,13 +95,13 @@ class Calculon{
                 for(let i=0;i<this.historico.length;i++){
                     listBody += `\n ${i+1}. ${this.historico[i]}`;
                 }
-                return listHead+listBody+listFooter+operationsNum+lastResultado
+                return listHead+listBody+listFooter+operationsNum+lastResultado;
         }
     }
 }
 
 // testes 
-const calc = new Calculon();
+const calc = new Calculadora();
 // Test 1: Soma
 calc.soma(2, 3);
 console.log(calc.obterResultado()); // 5n
@@ -132,3 +132,61 @@ console.log(calc.toString()); // "Calculadora Limpa "
 // Test 8: toJSON
 calc.soma(1, 2).multiplicacao(2, 3);
 console.log(calc.toJSON());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+      _______
+     /       \
+    |  CAL   |
+    |  CULON |
+    |_______ |
+   /  O   O  \
+  |     ∆     |
+  |   \___/   |
+   \_________/
+     |  |  |
+    /   |   \
+   |    |    |
+   |    |    |
+  /_____|_____\
+
+*/
