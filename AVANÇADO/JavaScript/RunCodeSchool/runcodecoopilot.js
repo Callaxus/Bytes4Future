@@ -6,9 +6,9 @@ function diaEmPalavras(dia, mes, ano){
         [1,31],[2,29],[3,31],[4,30],[5,31],[6,30],[7,31],[8,31],[9,30],[10,31],[11,30],[12,31]
     ]);
     const mesExtenso=new Map([
-        [1,"Janeiro"],[2,"Fevereiro"],[3,"Março"],[4,"Abril"],
-        [5,"Maio"],[6,"Junho"],[7,"Julho"],[8,"Agosto"],
-        [9,"Setembro"],[10,"Outubro"],[11,"Novembro"],[12,"Dezembro"]
+        [1,"janeiro"],[2,"fevereiro"],[3,"março"],[4,"abril"],
+        [5,"maio"],[6,"junho"],[7,"julho"],[8,"agosto"],
+        [9,"setembro"],[10,"outubro"],[11,"novembro"],[12,"dezembro"]
     ]);
     const mapaNums=new Map([
         [1,"um"],[2,"dois"],[3,"três"],[4,"quatro"],
@@ -104,3 +104,6 @@ console.log(diaEmPalavras(10, 13, 2020));  // Por favor introduza um mês entre 
 console.log(diaEmPalavras(29, 2, 2023));   // Por favor introduza um dia entre 1 e 28.
 console.log(diaEmPalavras(32, 1, 2022));   // Por favor introduza um dia entre 1 e 31.
 console.log(diaEmPalavras(31, 4, 2022));   // Por favor introduza um dia entre 1 e 30.
+
+// invallid day (leap year)
+console.log(diaEmPalavras(30,2,2024));
