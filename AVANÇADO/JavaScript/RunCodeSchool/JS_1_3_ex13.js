@@ -1,11 +1,10 @@
 function contaNumeroDeDivisoesPorDois(n){
-let ctr=0;
-    for(;Number.isInteger(n/2);n=n/2){
-        ctr++
+    let ctr=0;
+    if(n>=0&& typeof n === "number"){
+        for(let i = n; i >= 2 && i % 2 === 0;i= i/2){
+            ctr++;
+        }
+            return ctr;
     }
-    return ctr;
+    return 0;
 }
-console.log(contaNumeroDeDivisoesPorDois(127));
-console.log(contaNumeroDeDivisoesPorDois(10));
-console.log(contaNumeroDeDivisoesPorDois(20));
-
