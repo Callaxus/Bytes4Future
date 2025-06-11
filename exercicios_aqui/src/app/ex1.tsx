@@ -57,22 +57,22 @@ function IncrementalBotao(){
 
     return(
 
-    <main className="m-auto; flex-auto">
-        <div className="">
-            <p className="color-[#00ff00]">{numero}</p>
-            <button onClick={()=> handleClick()}>"Incrementa"</button>
-        </div>
+        <main className="m-auto; flex-auto">
+            <div className="">
+                <p className="color-[#00ff00]">{numero}</p>
+                <button onClick={()=> handleClick()}>"Incrementa"</button>
+            </div>
 
-        <div>
-            <p>{numeroRandom}</p>
-            <button onClick={()=> handleGen()}>"Gerar Numero"</button>
-        </div>
+            <div>
+                <p>{numeroRandom}</p>
+                <button onClick={()=> handleGen()}>"Gerar Numero"</button>
+            </div>
 
-        <div>
-            <p>{mapaNome.get(nomeRando)} {mapaInsult.get(insuRando)}</p>
-            <button onClick={()=>insultGen()}>"Gerar"</button>
-        </div>
-    </main>
-)
+            <div>
+                <p>{mapaNome.get(nomeRando)} {mapaInsult.get(insuRando)}</p>
+                <button onClick={()=>insultGen()}>"Gerar"</button>
+            </div>
+        </main>
+    )
 
 }
