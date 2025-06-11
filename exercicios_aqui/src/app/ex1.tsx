@@ -56,7 +56,6 @@ function IncrementalBotao(){
 
 
     return(
-
         <main className="m-auto; flex-auto">
             <div className="">
                 <p className="color-[#00ff00]">{numero}</p>
@@ -74,5 +73,4 @@ function IncrementalBotao(){
             </div>
         </main>
     )
-
 }
