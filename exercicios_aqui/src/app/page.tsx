@@ -1,7 +1,12 @@
 import IncrementalBotao from "./ex1"
+import Formulario from "./exform";
+import PeriodicTable from "./periodic";
 
 export default function Home(){
     return(
-        <IncrementalBotao></IncrementalBotao>
+        <div>
+            <IncrementalBotao></IncrementalBotao>
+            <Formulario></Formulario>
+        </div>
     );
 }
